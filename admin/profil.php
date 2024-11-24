@@ -1,5 +1,4 @@
 <?php
-
 include "header.php";
 
 include "sidebar.php";
@@ -27,7 +26,10 @@ include "sidebar.php";
             <div class="app-content"> <!--begin::Container-->
                 <div class="container-fluid"> <!--begin::Row-->
                     <div class="row"> <!--begin::Col-->
-                        TEST ISI Dashboard
+                        <p> UPDATE ISI PROFIL </p>
+                        <form action="update_profil.php" method="post">
+                            <input type="text" name="judul_profil" class="form_control" placeholder="judul_profil" id="">
+                        </form>
                     </div>
                 </div>
             </div>
@@ -36,9 +38,6 @@ include "sidebar.php";
 <?php
 
 include "footer.php";
-
-
-
 
 
 ?>
